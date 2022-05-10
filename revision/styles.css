@@ -1,0 +1,32 @@
+#boxA {
+    background-color: #ffd;
+    padding: 1.5em;
+    width: 50%;
+    border: 5px dashed #f4a460;
+    text-align: justify;
+    text-align: center;
+    margin: 15px auto;
+}
+
+#boxB {
+    background-color: #dff;
+    padding: 2em 20px;
+    width: 25%;
+    border-top: 10px double  darkslategray;
+    border-bottom: 10px double  darkslategray;
+    text-align: justify;
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 20px;
+}
+
+#boxC {
+    background-color: burlywood;
+    padding: 30px;
+    border: 1em ridge lightsalmon;
+    text-align: justify;
+    text-align: center;
+    margin: 2em 150px  1em 500px;
+}
+
