@@ -1,13 +1,21 @@
 
-import './App.css';
+
 import About from './components/About';
+import Categories from './components/Categories';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import './Categories.css'
 
 function App() {
   return (
-    <div className="App">
-      <About/>
+    <>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/about" element={<About/>}></Route>
+    </Routes>
+      </BrowserRouter>
 
-    </div>
+    <Categories />  
+    </>
   );
 }
 
