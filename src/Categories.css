@@ -59,6 +59,12 @@ img {
     font-weight: bold;
 }
 
+.author:hover {
+    text-decoration: underline;
+    color: darkgray;
+    cursor: pointer;
+}
+
 span {
     color: gray;
 }

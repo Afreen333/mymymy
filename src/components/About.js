@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function About() {
   return (
@@ -18,11 +17,12 @@ export default function About() {
           </ul>
       </div>
       <div id="description">
+          <h3>Description</h3>
           <ul>
               <li><p><strong>About:</strong>Clicking on this link should render a component which will give a brief description of the application.</p></li>
               <li><p><strong>Article:</strong>Clicking on this link should render a component which will contain titles of different articles. Clicking on the title should display the entire article.</p></li>
               <li><p><strong>Categories:</strong>This section contains different categories of articles. User can select any one of the categories.</p></li>
-              <li><p><strong>Categories:</strong>This section contains a single input field and a button. The user will enter the email in the input field.</p></li>
+              <li><p><strong>Subscribe:</strong>This section contains a single input field and a button. The user will enter the email in the input field.</p></li>
           </ul>
       </div>
       <div id="footer">
