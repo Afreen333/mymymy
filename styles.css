@@ -1,0 +1,17 @@
+.card {
+    border-radius: 20px;
+    border-color: yellow;
+    border-width: 5px;
+    
+}
+
+.btn {
+    background-color: black;
+    
+    color: yellow;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
